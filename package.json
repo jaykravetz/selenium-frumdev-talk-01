@@ -1,0 +1,11 @@
+{
+  "name": "selenium-raw",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^3.4.0"
+  }
+}
