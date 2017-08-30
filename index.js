@@ -1,10 +1,10 @@
 const WebDriver = require('selenium-webdriver'),
       By        = WebDriver.By;
 
+process.env.SELENIUM_SERVER_JAR = 'C:\\apps\\selenium\\bin\\selenium-server-standalone-3.4.0.jar';
+
 let browser = new WebDriver.Builder()
     .withCapabilities(WebDriver.Capabilities.chrome())
-    .withCapabilities(WebDriver.Capabilities.ie())
-    .usingServer('http://localhost:4444/wd/hub')
     .build();
 
 
