@@ -16,8 +16,8 @@
     "register": true,
     "registerCycle": 5000,
     "hubPort": 4444,
-    "hubHost": "10.60.1.11",
-    "hub": "http://10.60.1.11:4444/grid/register/",
+    "hubHost": "127.0.0.1",
+    "hub": "http://127.0.0.1:4444/grid/register/",
     "timeout": 600000,
     "browserTimeout": 600000
 }
